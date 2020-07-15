@@ -2,7 +2,7 @@
     width: 100vw;
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
-    margin-bottom: 10vw;
+    margin-bottom: 1vw;
 }
 .card {
     margin: auto;
@@ -11,9 +11,20 @@
     padding: 2vh;
     color: rosybrown;
 }
-.telo {
-    background-color: rgb(119, 113, 112);
+.karty {
+    background-color: rosybrown;
+
 }
 .nechmivzkaz{
-    margin-top: 5vh;
+    margin-top: 10vw;
+}
+.form-group{
+    margin: auto;
+    width: 50%;
+    border-bottom: 5vh;
+    padding: 2vh;
+}
+.nechmivzkaz.text {
+    text-align: center;
+    border: 3px solid green;
 }
