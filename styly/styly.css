@@ -5,7 +5,8 @@ html {
 .banner {
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
-    margin-bottom: 5%;
+    margin: 2%;
+
 }
 .card {
     margin: auto;
@@ -33,7 +34,7 @@ html {
     padding: 2vh;
 }
 .nav {
-    text-align: center;
+    text-align: center !important;
     font-size: 16px;
     text-decoration-color: rosybrown;
     color:blanchedalmond; 
@@ -56,11 +57,18 @@ h3 {
     font-size: 100px;
 }
 footer {
-    background-color:#CF9976;
+    background-color: #C7B7A5;
     font-family: 'Josefin Slab', serif;
     text-align: 2% right !important;
 }
 .btn-primary {
     background-color: rosybrown !important;
     border-color: rosybrown !important;
+}
+header {
+    height: 5vh;
+    background-color: rosybrown;
+    color: white;
+    margin: 2%;
+    padding: 0vh;
 }

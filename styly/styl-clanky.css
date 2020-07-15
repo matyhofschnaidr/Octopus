@@ -7,3 +7,19 @@ html {
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
     margin-bottom: 5%;
 }
+.nechmivzkaz{
+    margin-top: 10vw;
+    background-color: rosybrown;
+    margin: 2%;
+}
+footer {
+    background-color: #C7B7A5;
+    font-family: 'Josefin Slab', serif;
+    text-align: 2% right !important;
+}
+h3 {
+    text-align: center;
+    color: seashell;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px !important;
+}
