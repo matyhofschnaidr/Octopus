@@ -2,7 +2,7 @@
     width: 100vw;
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
-    margin-bottom: 1vw;
+    margin-bottom: 5%;
 }
 .card {
     margin: auto;
@@ -13,10 +13,15 @@
 }
 .karty {
     background-color: rosybrown;
+    margin: 2%;
+    padding: 20px 0 20px 0;
+    border-top: rosybrown 5px;
 
 }
 .nechmivzkaz{
     margin-top: 10vw;
+    background-color: rosybrown;
+    margin: 2%;
 }
 .form-group{
     margin: auto;
@@ -24,7 +29,17 @@
     border-bottom: 5vh;
     padding: 2vh;
 }
-.nechmivzkaz.text {
+.nav {
     text-align: center;
-    border: 3px solid green;
+    font-size: 16px;
+    text-decoration-color: rosybrown;
+    color:blanchedalmond; 
+    font-weight:bold;
+}
+
+h3 {
+    text-align: center;
+    color: seashell;
+    font: Animatic-SC;
+
 }
