@@ -3,3 +3,6 @@
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
 }
+.card {
+    margin-top: 5vw;
+}
