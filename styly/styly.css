@@ -52,9 +52,15 @@ h3 {
     top: 50%;
     left: 35%;
     font-family: 'Amatic SC', cursive;
-    color: seashell;
+    color: white;
     font-size: 100px;
 }
-.zahlavi {
-    color: slategray;
+footer {
+    background-color:#CF9976;
+    font-family: 'Josefin Slab', serif;
+    text-align: 2% right !important;
+}
+.btn-primary {
+    background-color: rosybrown !important;
+    border-color: rosybrown !important;
 }
