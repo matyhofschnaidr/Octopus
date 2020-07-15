@@ -5,7 +5,7 @@ html {
 .banner {
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
-    margin-bottom: 5%;
+    margin: 2%;
 }
 .nechmivzkaz{
     margin-top: 10vw;
@@ -22,4 +22,11 @@ h3 {
     color: seashell;
     font-family: 'Amatic SC', cursive;
     font-size: 40px !important;
+}
+header {
+    height: 5vh;
+    background-color: rosybrown;
+    color: white;
+    margin: 2%;
+    padding: 0vh;
 }
