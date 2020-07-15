@@ -33,13 +33,6 @@ html {
     border-bottom: 5vh;
     padding: 2vh;
 }
-.nav {
-    text-align: center !important;
-    font-size: 16px;
-    text-decoration-color: rosybrown;
-    color:blanchedalmond; 
-    font-weight:bold;
-}
 
 h3 {
     text-align: center;
@@ -50,8 +43,8 @@ h3 {
 
 .blog {
     position: relative;
-    top: 50%;
-    left: 35%;
+    top: 30vh;
+    left: 35vw;
     font-family: 'Amatic SC', cursive;
     color: white;
     font-size: 100px;

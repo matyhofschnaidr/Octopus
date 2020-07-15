@@ -7,10 +7,24 @@ html {
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
     margin: 2%;
 }
+.blog {
+    position: relative;
+    top: 30vh;
+    left: 35vw;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 100px;
+}
 .nechmivzkaz{
     margin-top: 10vw;
     background-color: rosybrown;
     margin: 2%;
+}
+.form-group{
+    margin: auto;
+    width: 50%;
+    border-bottom: 5vh;
+    padding: 2vh;
 }
 footer {
     background-color: #C7B7A5;
@@ -34,6 +48,7 @@ header {
     height: 50vh;
     width: 70vh;
     margin-left: 70vh;
+    margin-top: 5%;
 }
 .card-title {
     font-family: 'Amatic SC', cursive !important;
@@ -41,5 +56,14 @@ header {
 }
 .clanek {
     background-color: rosybrown;
+    margin: 2%;
+    padding: 20px 0 20px 0;
+    border-top: rosybrown 5px;
+
 }
-.card-
+.card-mb3 {
+    margin: 5%;
+}
+.card-body {
+    width: 70vw;
+}
