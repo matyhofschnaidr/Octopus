@@ -1,7 +1,8 @@
-img {
-    height: 200px;
-    border-radius: 0px;
+.banner {
+    width: 100vw;
+    height: 20vh;
+    background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
 }
-card {
-    margin-top: 20px;
+.card {
+    margin: 20, 20, 20, 20;
 }

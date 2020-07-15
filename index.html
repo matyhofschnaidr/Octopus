@@ -1,58 +1,40 @@
 <!DOCTYPE html>
-<html lang="cz">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Americká kuchyně</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styly/styly.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="styly/styly.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<header>
+  <nav class="container">
+    <a href="#">Domů</a>
+    <a href="#clanky">Články</a>
+    <a href="nechmivzkaz">Nech mi vzkaz</a>
+  </nav> 
+</header>
 <body>
-  <div class="jumbotron">
-        <h1 class="display-4">Americká kuchyně</h1>
-        <p class="lead"></p>
-        <hr class="my-4">
+  <div class="banner">Název blogu</div>
+  <a name="clanky"></a>
+  <div class="card" style="width: 18rem;">
+    <img src="obrazky/dandelion-445228_1920.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Název článku</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maiores temporibus expedita, aperiam facere ex soluta. Natus voluptate error illum.</p>
+      <a href="#" class="btn btn-primary">Celý článek</a>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="obrazky/the-caucasus-5299607_1920.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Název článku</h5>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odit minus incidunt obcaecati? Fuga cumque esse officia reprehenderit vel! Inventore.</p>
+        <a href="#" class="btn btn-primary">Celý článek</a>
       </div>
-      <section class="karty">
-        <div class="container">
-        <div class="row">
-          <div class="card col-md" style="width: 18rem;">
-            <img src="obrazky/waffles-5192625_640.jpg"clas="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Snídaně</p>
-            </div>
-          </div>
-       <div class="card col-md" style="width: 18rem;">
-            <img src="obrazky/rsz_burger_oběd.jpg" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Oběd</p>
-            </div>
-          </div>
-          <div class="card col-md" style="width: 18rem;">
-            <img src="obrazky/burger, večeře.jpg" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Večeře</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Uživatelské jméno</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+    </div>
+  </div>
+</body>
 </html>
