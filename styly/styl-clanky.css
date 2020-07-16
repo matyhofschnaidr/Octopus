@@ -15,7 +15,7 @@ html {
       font-size: 24px;
     }
   }
-
+ 
 .banner {
     height: 300px;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
@@ -66,7 +66,7 @@ header {
 }
 .clanek {
     background-color: rosybrown !important;
-    margin: 2%;
+    margin: 5%;
     padding: 20px 0 20px 0;
     border-top: rosybrown 5px;
 
