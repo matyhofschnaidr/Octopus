@@ -1,69 +1,8 @@
-html {
-    margin: 0;
-    padding: 0;
-}
-html {
-    font-size: 18px;
-  }
-  @media screen and (min-width: 320px) {
-    html {
-      font-size: calc(18px + 6 * ((100vw - 320px) / 680));
-    }
-  }
-  @media screen and (min-width: 1000px) {
-    html {
-      font-size: 24px;
-    }
-  }
- 
-.banner {
-    height: 300px;
-    background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
-    margin: 2%;
-    position: relative;
-}
-
-.blog {
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    font-family: 'Amatic SC', cursive;
-    color: white;
-}
-.nechmivzkaz{
-    margin-top: 10vw;
-    background-color: rosybrown;
-    margin: 2%;
-}
-.form-group{
-    margin: auto;
-    width: 50%;
-    border-bottom: 5vh;
-    padding: 2vh;
-}
-footer {
-    background-color: #C7B7A5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40%;
-    color: white;
-}
-h3 {
-    text-align: center;
-    color: white;
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px !important;
-}
-header {
-    height: 5vh;
-    color: white;
-    margin: 2%;
-    padding: 0vh;
-}
-
 .card-title {
     font-family: 'Amatic SC', cursive !important;
     font-size: 40px;
 }
+
 .clanek {
     background-color: rosybrown !important;
     margin: 5%;
@@ -76,13 +15,14 @@ header {
 }
 .card-body {
     width: 70vw;
+    text-align: center;
 }
 .card {
-    margin: auto;
-    width: 70%;
+    margin: 5%;
     border-bottom: 5vh;
     padding: 2vh;
-    color: rosybrown;
+    text-align: center;
+    color: rosybrown !important;
 }
 p {
     text-align: center !important;
