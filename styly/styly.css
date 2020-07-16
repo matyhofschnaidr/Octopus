@@ -2,17 +2,45 @@ html {
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 24px;
+    }
+  }
+
+header {
+    height: 5vh;
+    color: white;
+    margin: 2%;
+    padding: 0vh;
+}
 .banner {
     height: 50vh;
     background: url('../obrazky/the-caucasus-5299607_1920.jpg') center/cover no-repeat;
     margin: 2%;
-
 }
+.blog {
+    position: relative;
+    top: 30vh;
+    left: 35vw;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+
 .card {
-    margin: auto;
+    margin: auto !important;
     width: 20%;
     border-bottom: 5vh;
-    padding: 2vh;
+    padding: 2vh !important;
     color: rosybrown;
 }
 .karty {
@@ -36,32 +64,19 @@ html {
 
 h3 {
     text-align: center;
-    color: seashell;
+    color: white;
     font-family: 'Amatic SC', cursive;
     font-size: 40px !important;
 }
 
-.blog {
-    position: relative;
-    top: 30vh;
-    left: 35vw;
-    font-family: 'Amatic SC', cursive;
-    color: white;
-    font-size: 100px;
-}
 footer {
     background-color: #C7B7A5;
-    font-family: 'Josefin Slab', serif;
-    text-align: 2% right !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40%;
+    color: white;
+    text-align: left;
 }
 .btn-primary {
     background-color: rosybrown !important;
     border-color: rosybrown !important;
-}
-header {
-    height: 5vh;
-    background-color: rosybrown;
-    color: white;
-    margin: 2%;
-    padding: 0vh;
 }
