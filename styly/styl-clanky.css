@@ -22,13 +22,13 @@ html {
     margin: 2%;
     position: relative;
 }
+
 .blog {
-    position: relative;
-    top: 30vh;
-    left: 35vw;
+    position: absolute;
+    top: 100px;
+    left: 150px;
     font-family: 'Amatic SC', cursive;
     color: white;
-    font-size: 100px;
 }
 .nechmivzkaz{
     margin-top: 10vw;
