@@ -1,4 +1,16 @@
 .clanek {
     background-color: rosybrown;
     margin: 2%;
+    padding: 2%;
+}
+.card {
+    padding: 2%;
+}
+.btn-primary {
+    border-color: white !important;
+    font-family: 'Amatic SC', cursive;
+}
+label {
+    font-family: 'Amatic SC', cursive;
+    color: white;
 }

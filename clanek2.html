@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
+  <link rel="stylesheet" href="styly/styly.css">
+  <link rel="stylesheet" href="styly/styl-clanky.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -11,68 +13,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styly/styly.css">
-  <link rel="stylesheet" href="styly/styl-clanky.css">
-</head>
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" a href="index.html">Domů</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#clanek">Článek <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#nechmivzkaz">Nech mi vzkaz</a>
-          </li>
-            </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-<body>
-    <div class="tělo">
-        <div class="banner">
-          <h1 class="blog">Název blogu</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Domů</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#clanek">Článek <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nechmivzkaz">Nech mi vzkaz</a>
+        </li>
+          </a>
           </div>
-          <a name ="clanek"></a>
-          <section class=" container clanek">
-            <div class=" card">
-                <img src="obrazky/dandelion-445228_1920.jpg" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Název článku</h5>
-                  <p class="card-text" style="max-width: 100%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus similique perferendis, corporis quod esse nihil commodi eligendi sequi debitis asperiores eveniet dicta quasi facilis quidem fugit facere excepturi eius veritatis ullam placeat. Inventore culpa commodi, alias aliquid excepturi officia aliquam fuga, minus harum quibusdam perspiciatis sequi explicabo quidem ut ea deleniti similique ad in consectetur laudantium. Totam voluptates at quae ducimus porro alias perferendis autem tempore ipsa tenetur laborum assumenda, dolorem, fugit culpa dicta. Quaerat impedit necessitatibus similique magni reiciendis obcaecati at aperiam iste. Iure sequi debitis explicabo perspiciatis maxime dolorum et quam, cupiditate libero sapiente deserunt eum nesciunt repellendus commodi unde beatae pariatur, perferendis ullam eius. Placeat fugiat architecto ad, sit blanditiis reiciendis, corrupti unde dolorem repudiandae maxime necessitatibus magnam expedita et dolores ab voluptatum distinctio esse quo dignissimos consectetur natus ipsum! Iusto tempora laudantium cumque quos ab. Praesentium, reiciendis aspernatur impedit sint corporis consequatur repudiandae dignissimos. Soluta ut dolor quibusdam ipsa. Rem, nobis! Dicta necessitatibus aliquam nemo at, est ratione, architecto quis suscipit nostrum tempore rerum itaque exercitationem facilis officiis, illum ad quae natus enim! Minus ducimus voluptates eligendi quaerat delectus quia ut consequatur. Quod obcaecati impedit pariatur, deserunt totam quisquam reprehenderit voluptatibus voluptate? Eius, cum nulla. Culpa!</p>
-                </div>
-              </div>
-          </section>
-          <a name="nechmivzkaz"></a>
-          <section class="nechmivzkaz">
-            <form>
-              <h3>Nech mi vzkaz</h3>
-              <div class="form-group">
-                <label for="InputEmail1">Tvůj email</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Tvůj vzkaz</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="form-group form-check">
-              <button type="submit" class="btn btn-primary">Odeslat</button>
-            </form>
-            </section>
+        </li>
+      </ul>
     </div>
-    <footer>
-      <div>
-      <p>Author: Matylda Hofschnaidrová</p>
-      <p><a href="mailto:maty.hofschnaidr@gmail.com">maty.hofschnaidr@gmail.com</a></p>
+  </nav>
+</header>
+<body>
+  <div class="banner img-responsive">
+    <h1 class="blog">Název blogu</h1>
+  </div>
+  <section class="clanek">
+  <a name="clanek"></a>
+  <div class="card text-center">
+    <img src="obrazky/dandelion-445228_1920.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Název článku</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quas corporis fugit reiciendis temporibus dolor itaque, quos impedit neque culpa deserunt ipsam voluptate, magni eaque incidunt repellendus esse. Rerum soluta et temporibus pariatur eos similique? Quasi placeat reiciendis ratione et fuga, odio, iure tempore esse officia est aperiam, dolor omnis aspernatur. Nam consequatur maiores repellendus? Excepturi ex nemo deserunt, velit, est quas officia illo, esse sit amet quam exercitationem nisi cupiditate modi deleniti ullam unde eos. Et, illo sequi! Maxime laudantium incidunt reprehenderit debitis ipsum. Laboriosam cumque assumenda voluptates similique officiis consequatur amet quisquam nam, ratione cupiditate expedita nisi culpa deserunt magni alias, incidunt consectetur est praesentium molestiae repellendus blanditiis odio. Aut iure sequi maxime in impedit numquam aliquid nemo consequuntur, quae officia quod asperiores tempore, vero reiciendis harum odio ut eveniet adipisci? Repellat possimus maxime dolore officiis ipsam impedit in eos vel qui voluptatibus aliquid commodi modi eligendi sequi unde mollitia provident velit, et ea eius minima incidunt necessitatibus amet minus? Sed quis harum ipsum voluptas veniam? Odit quibusdam praesentium, nihil quo similique magnam necessitatibus et, culpa cupiditate, eligendi adipisci nemo atque! Dolore saepe quaerat praesentium libero in similique inventore, tempore consequuntur dolores atque vitae aliquid ipsum harum officia, ullam omnis laudantium voluptas! Accusantium, deleniti? Voluptatem rerum eveniet minima nobis accusantium, magnam expedita at doloribus, aperiam excepturi sed minus, quidem neque omnis quos adipisci ullam pariatur praesentium perferendis ad laborum culpa consequuntur sint. Iste a doloribus ab soluta magni. Asperiores, eos officia veritatis, quod molestias cupiditate nihil quis minima expedita nostrum dolor! Deleniti odio eaque, blanditiis ducimus veniam eligendi nihil quia beatae quibusdam at consequuntur commodi tempora, ratione maiores incidunt laboriosam sequi dolorum odit deserunt voluptate est ea voluptatem reiciendis! Cupiditate necessitatibus natus commodi voluptatibus neque, voluptatem, voluptatum amet laboriosam eius, mollitia omnis? Et, reiciendis repellat voluptatibus voluptatum quod dolorem possimus, velit culpa, dolore saepe fugit quos mollitia quidem! Provident debitis quibusdam magnam quae voluptatum rerum, labore officiis, inventore minus libero veritatis exercitationem ut cupiditate dolor mollitia fugiat ab, repudiandae nemo vel! Iusto inventore quidem nisi unde, veritatis perspiciatis possimus nemo animi voluptatem provident expedita cupiditate aperiam sequi, voluptas maxime commodi excepturi porro quo asperiores natus. Architecto repellendus eveniet autem sint rem mollitia necessitatibus expedita hic reiciendis aliquid beatae impedit harum, enim laborum accusamus ratione doloribus. Unde magnam laudantium nulla maxime architecto incidunt. Voluptatem laboriosam debitis harum dicta provident itaque nemo, reiciendis a, reprehenderit sit corrupti? Ex molestias fugit reiciendis at. Laborum enim quasi animi explicabo nam voluptatum asperiores blanditiis maiores, dolore praesentium consequuntur accusantium repudiandae provident hic reprehenderit omnis magnam porro officiis corporis quibusdam molestiae? Cum officia iste illo vel, vero veniam. Excepturi porro assumenda aspernatur quas quis unde. Quibusdam suscipit aperiam fuga repellat ex voluptatem id neque doloremque sed libero? Ullam, animi at. Magnam mollitia voluptas vero exercitationem ipsam recusandae minima placeat amet? Magni corrupti expedita unde, laudantium amet accusantium vitae sint, at suscipit voluptatem excepturi error, nobis hic temporibus itaque culpa aliquid? Maxime repellat qui mollitia rerum, harum beatae facilis ducimus ab eaque nam, quidem id.</p>
     </div>
-    </footer>
+  </div>
+  </section>
+  <a name= "nechmivzkaz"></a>
+  <section class="nechmivzkaz">
+    <form>
+      <h3>Nech mi vzkaz</h3>
+      <div class="form-group">
+        <label for="InputEmail1">Tvůj email</label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Tvůj vzkaz</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+      <button type="submit" class="btn btn-primary">Odeslat</button>
+    </form>
+    </section>
+  </div>
+  
+  <footer>
+    <div>
+    <p>Author: Matylda Hofschnaidrová</p>
+    <p><a href="mailto:maty.hofschnaidr@gmail.com">maty.hofschnaidr@gmail.com</a></p>
+    </div>
+  </footer>
+  </body>
+  </html>
 </body>
 </html>
