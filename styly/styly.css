@@ -87,4 +87,10 @@ footer {
 .btn-primary {
     background-color: rosybrown !important;
     border-color: rosybrown !important;
+    border-color: white !important;
+    font-family: 'Amatic SC', cursive;
+}
+label {
+    font-family: 'Amatic SC', cursive;
+    color: white;
 }
