@@ -88,9 +88,9 @@ footer {
     background-color: rosybrown !important;
     border-color: rosybrown !important;
     border-color: white !important;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive !important;
 }
 label {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive !important;
     color: white;
 }
